@@ -42,7 +42,7 @@ public class LandingPageTest extends BaseTest{
 	public void verify_error_message_invalid_credentials()
 	{
 		landingPage.loginApplication("123ser@gmail.com", "@Chetan");
-		Assert.assertEquals("Incorrect email orpassword.", landingPage.getErrorMessage());
+		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		
 	}
 	@AfterMethod

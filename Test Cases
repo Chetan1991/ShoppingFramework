@@ -1,0 +1,168 @@
+1. Login Page
+Test Case 1.1: Verify login with valid credentials
+Steps:
+
+Open the browser and navigate to the login page.
+Locate the username input field (e.g., by ID or name) and enter valid credentials.
+Locate the password input field and enter the valid password.
+Click the login button.
+Assert that the user is redirected to the dashboard URL or confirm successful login with a visible element.
+Test Case 1.2: Verify error message for invalid credentials
+Steps:
+
+Repeat steps 1-3 above, but enter invalid credentials.
+Assert that the error message is displayed and matches the expected text.
+Test Case 1.3: Verify "Forgot Password" link functionality
+Steps:
+
+Locate the "Forgot Password" link and click it.
+Assert redirection to the password recovery page by checking the URL or page header.
+Test Case 1.4: Verify login button disabled for empty fields
+Steps:
+
+Clear the username and password fields.
+Assert that the login button is disabled.
+Test Case 1.5: Verify session expiration
+Steps:
+
+Log in to the application.
+Stay idle for the configured session timeout duration.
+Perform an action (e.g., click a button).
+Assert that the user is redirected to the login page.
+2. Dashboard Navigation
+Test Case 2.1: Verify navigation to the dashboard
+Steps:
+
+Perform a successful login (reuse Test Case 1.1).
+Assert that the dashboard page loads by checking specific elements unique to the dashboard.
+Test Case 2.2: Verify all navigation links are functional
+Steps:
+
+Identify and click each navigation link (Home, Orders, Profile).
+Assert that clicking each link loads the expected page (verify URL and unique page elements).
+Test Case 2.3: Test dashboard responsiveness
+Steps:
+
+Open the dashboard in a browser.
+Resize the window to predefined dimensions (mobile, tablet, desktop).
+Assert that all elements are visible and functional for each resolution.
+Test Case 2.4: Verify accessibility features
+Steps:
+
+Use tools like Axe or Lighthouse for accessibility checks.
+Verify keyboard navigation by tabbing through elements.
+Test screen reader compatibility by enabling a screen reader.
+3. Product Listing/Content Display
+Test Case 3.1: Verify product/content display
+Steps:
+
+Log in and navigate to the dashboard.
+Assert that product/content cards (images, titles, descriptions) are displayed.
+Test Case 3.2: Test filters and sorting
+Steps:
+
+Apply a filter (e.g., category, price) using dropdowns or checkboxes.
+Assert that the displayed results match the filter criteria.
+Test Case 3.3: Validate image and title loading
+Steps:
+
+Verify that each product card has a non-broken image and visible title.
+Test Case 3.4: Verify pagination
+Steps:
+
+Navigate to the dashboard.
+Scroll to trigger pagination or click the "Next" button.
+Assert that the next set of products is loaded.
+4. Search Functionality
+Test Case 4.1: Verify search with valid input
+Steps:
+
+Locate the search bar, enter a query, and press Enter.
+Assert that relevant results are displayed.
+Test Case 4.2: Validate for partial matches and special characters
+Steps:
+
+Repeat Test Case 4.1 with partial input and special characters.
+Assert the results or "No Results Found" message.
+5. Order Management
+Test Case 5.1: Verify order history
+Steps:
+
+Log in and navigate to the "Orders" page.
+Assert that past orders are listed.
+Test Case 5.2: Validate order details
+Steps:
+
+Click an order to view its details.
+Assert that all information (product, price, delivery) is correct.
+Test Case 5.3: Verify cancel order functionality
+Steps:
+
+Select an order with a cancel option and click "Cancel."
+Confirm the action in the pop-up.
+Assert that the order status changes appropriately.
+6. Profile and Settings
+Test Case 6.1: Verify profile update
+Steps:
+
+Navigate to the "Profile" page.
+Update fields like name or email.
+Save changes and assert the updated values.
+Test Case 6.2: Verify password update
+Steps:
+
+Navigate to "Change Password."
+Enter current password and new password.
+Save and assert that the success message is displayed.
+Test Case 6.3: Verify profile picture upload
+Steps:
+
+Click on the "Upload Profile Picture" button.
+Select a valid image file and confirm.
+Assert that the image is displayed.
+7. Logout
+Test Case 7.1: Verify logout functionality
+Steps:
+
+Log in to the application.
+Click the "Logout" button.
+Assert redirection to the login page.
+Test Case 7.2: Verify access restriction for logged-out users
+Steps:
+
+Log out and attempt to navigate to a restricted page via URL.
+Assert redirection to the login page.
+8. Error Handling
+Test Case 8.1: Verify network error handling
+Steps:
+
+Simulate a network error (e.g., disable the internet).
+Assert that the site displays an appropriate error message.
+Test Case 8.2: Verify server error handling
+Steps:
+
+Simulate server errors (if possible, using mock data or staging).
+Assert correct error handling (e.g., "404 Page Not Found").
+9. Performance
+Test Case 9.1: Measure page load time
+Steps:
+
+Use tools like Selenium with performance plugins.
+Assert that the page load time is within acceptable limits.
+10. Security
+Test Case 10.1: Verify password encryption
+Steps:
+
+Intercept network traffic (using tools like Fiddler) during login.
+Assert that the password is encrypted.
+Test Case 10.2: Test for SQL injection
+Steps:
+
+Enter SQL payloads (e.g., ' OR '1'='1) in input fields.
+Assert that the application handles it securely.
+Test Case 10.3: Verify session security
+Steps:
+
+Log in and copy the session token.
+Log out and attempt to reuse the token.
+Assert that the session is invalid.

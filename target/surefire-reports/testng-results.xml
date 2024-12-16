@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-15T22:19:27 IST" name="Test Suite" finished-at="2024-12-15T22:19:43 IST" duration-ms="15837">
+  <suite started-at="2024-12-16T15:22:12 IST" name="Test Suite" finished-at="2024-12-16T15:22:17 IST" duration-ms="5445">
     <groups>
     </groups>
-    <test started-at="2024-12-15T22:19:27 IST" name="Test" finished-at="2024-12-15T22:19:43 IST" duration-ms="15837">
+    <test started-at="2024-12-16T15:22:12 IST" name="Test" finished-at="2024-12-16T15:22:17 IST" duration-ms="5445">
       <class name="pageTests.LandingPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:27 IST" name="setUp" finished-at="2024-12-15T22:19:34 IST" duration-ms="7123" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:12 IST" name="setUp" finished-at="2024-12-16T15:22:14 IST" duration-ms="2547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_login_with_valid_credentials()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:34 IST" name="Verify_login_with_valid_credentials" finished-at="2024-12-15T22:19:36 IST" duration-ms="1290" status="PASS">
+        <test-method signature="Verify_login_with_valid_credentials()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:14 IST" name="Verify_login_with_valid_credentials" finished-at="2024-12-16T15:22:15 IST" duration-ms="390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:36 IST" name="tearDown" finished-at="2024-12-15T22:19:36 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:15 IST" name="tearDown" finished-at="2024-12-16T15:22:15 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:36 IST" name="setUp" finished-at="2024-12-15T22:19:41 IST" duration-ms="5076" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:15 IST" name="setUp" finished-at="2024-12-16T15:22:17 IST" duration-ms="1829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_error_message_invalid_credentials()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:41 IST" name="verify_error_message_invalid_credentials" finished-at="2024-12-15T22:19:43 IST" duration-ms="1686" status="PASS">
+        <test-method signature="verify_error_message_invalid_credentials()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:17 IST" name="verify_error_message_invalid_credentials" finished-at="2024-12-16T15:22:17 IST" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_error_message_invalid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-15T22:19:43 IST" name="tearDown" finished-at="2024-12-15T22:19:43 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LandingPageTest@75437611]" started-at="2024-12-16T15:22:17 IST" name="tearDown" finished-at="2024-12-16T15:22:17 IST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
